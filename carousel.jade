@@ -1,0 +1,19 @@
+#header-carousel.carousel.slide
+		ol.carousel-indicators
+			li.active(data-target="#header-carousel", data-slide-to="0")
+			li(data-target="#header-carousel", data-slide-to="1")
+			li(data-target="#header-carousel", data-slide-to="2")
+		.carousel-inner
+			.item.active
+				img(src="assets/img/phone.png", alt="phone")
+				.carousel-caption
+			.item
+				img(src="assets/img/ipad.png", alt="ipad")
+				.carousel-caption
+			.item				
+				img(src="assets/img/macbookair.png", alt="macbookair")
+				.carousel-caption
+		a.left.carousel-control(href="#header-carousel", data-slide="prev")
+			span.icon-prev
+		a.right.carousel-control(href="#header-carousel", data-slide="next")
+			span.icon-next
